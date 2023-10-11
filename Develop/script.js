@@ -9,24 +9,24 @@ var generateBtn = document.querySelector("#generate");
 // display password
 
 
-function createPassword() {
+function generatePassword() {
 
-  var chooseLength = window.prompt("What length would you like?");
+  var chooseLength = window.prompt("What length password would you like?");
   var chooseUpperCase = window.confirm("Click OK to include uppercase letters. Click cancel to not include uppercase letters.");
   var chooseLowerCase = window.confirm("Click OK to include lowercase letters. Click cancel to not include lowercase letters.");
   var chooseNumbers = window.confirm("Click OK to include numbers. Click cancel to not include numbers.");
   var chooseSpecialChar = window.confirm("Click OK to include special characters. Click cancel to not include special characters.");
   var specialChar = [ "!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "`", "{", "|", "}", "~" ]
-  // [ ] " / all left out
+  // [ ] " \ all left out
 
   // length
-  if (chooseLength > 0 && chooseLength < 128) {
+  if (chooseLength > 0 && chooseLength < 129) {
       console.log(chooseLength);
   
   }
   
   else {
-      window.alert("Number not valid! Please choose a number between 0 and 128.");
+      window.alert("Number not valid! Please choose a number between 1 and 128.");
     
   }
 
@@ -53,14 +53,6 @@ function createPassword() {
 
 
 }
-
-createPassword();
-
-
-
-
-
-
 
 
 
