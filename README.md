@@ -2,12 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This project is a ramdonized password generator. It first asks hoe long you want the password to be. It then confirms if you want to use letters, numbers, and/or special characters. 
 
 
 ## Installation
@@ -21,6 +16,10 @@ Simply click the link to the Github page, and click the "generate password" butt
 Links below:
 https://rnahill.github.io/random-password-generator/
 https://github.com/rnahill/random-password-generator
+
+
+![Alt text](image.png)
+
 
 [Screenshot of Random Password Generator Site](./Develop/screenshot-password-generator.png)
     
