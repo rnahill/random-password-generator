@@ -6,7 +6,7 @@ function generatePassword() {
 
   var chooseLength = window.prompt("What length password would you like?");
   
-  if (chooseLength <= 8 || chooseLength >= 128) {
+  if (chooseLength < 8 || chooseLength > 128) {
     window.alert("Number not valid! Please choose a number between 1 and 128.");
     return;
   }
