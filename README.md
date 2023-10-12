@@ -15,6 +15,7 @@ Simply click the link to the Github page, and click the "generate password" butt
 
 Links below:
 https://rnahill.github.io/random-password-generator/
+<br>
 https://github.com/rnahill/random-password-generator
 
 
